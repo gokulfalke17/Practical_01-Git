@@ -25,6 +25,7 @@ public class CalculatorService {
     public Integer divide() {
         if (calculator.getB() == 0) {
             throw new ArithmeticException("Division by zero is not allowed.");
+            // added
         }
         return calculator.getA() / calculator.getB();
     }
